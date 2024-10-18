@@ -1,6 +1,6 @@
 function Testimony() {
   return (
-    <div><h1>Testimony</h1></div>
+    <div><p>Testimony</p></div>
   )
 }
 

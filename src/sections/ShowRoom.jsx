@@ -1,6 +1,6 @@
 function ShowRoom() {
   return (
-    <div><h1>ShowRoom</h1></div>
+    <div><p>ShowRoom</p></div>
   )
 }
 

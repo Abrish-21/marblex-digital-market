@@ -1,6 +1,6 @@
 function OurSkill() {
   return (
-    <div><h1>OurSkill</h1></div>
+    <div><p>OurSkills</p></div>
   )
 }
 
