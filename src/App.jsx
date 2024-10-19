@@ -1,3 +1,4 @@
+import Address from './components/Address';
 import {About,ShowRoom, Client, FAQ, Footer , Home, OurSkill, Services, Testimony} from './sections/index';
 // import Nav from './components/Nav'
 const App =() =>{

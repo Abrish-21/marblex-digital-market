@@ -19,6 +19,29 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+#navbar
+{
+  align-items: center;
+}
+#logo-icon
+{
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+#icons-navbar img
+{
+
+  width: 35px;
+  height: 35px;
+  padding-left: 2px;
+  padding-right: 2px;
+
+}
+#nav-item
+{
+  display: flex;
+}
 
 a {
   font-weight: 500;
