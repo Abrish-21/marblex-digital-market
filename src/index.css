@@ -19,9 +19,33 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.line-before {
+  position: relative;
+  display: inline-block;
+  padding-left: 3rem /* Space between the line and the text */
+}
+
+.line-before::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  height: 1px; /* Thickness of the line */
+  width: 40px; /* Length of the line */
+  background-color:#fb923c ; /* Line color */
+  transform: translateY(-50%);
+}
+#address-icon img
+{
+  width: 20px;
+  height: 20px;
+}
+
+
 #navbar
 {
   align-items: center;
+  padding-bottom: 5px;
 }
 #logo-icon
 {
@@ -29,11 +53,21 @@
   height: 60px;
   object-fit: cover;
 }
-#icons-navbar img
+#icons-navbar
 {
 
   width: 35px;
   height: 35px;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin-bottom: 5px;
+
+}
+#arrow-icon img
+{
+
+  width: 20px;
+  height: 20px;
   padding-left: 2px;
   padding-right: 2px;
 
@@ -76,13 +110,7 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
+
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -90,9 +118,16 @@ button:focus-visible {
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: #09090a;
   }
-  button {
-    background-color: #f9f9f9;
-  }
+}
+#nav-list
+{
+  font-size: smaller;
+  color:rgb(31, 30, 30);
+  
+}
+#nav-list:hover
+{
+  color:#fb923c;
 }

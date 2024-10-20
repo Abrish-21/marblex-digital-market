@@ -2,23 +2,22 @@ import React from 'react'
 
 function Address() {
   return (
-    <address className='bg-gray-900 pt-4 pb-4 rounded-none sticky top-0 font-serif w-full justify-between flex  gap-3 mt-1.5'>
+    <address id='align-center' className='w-ful bg-[#1E293B] pl-3 rounded-none font-sans
+     justify-between flex  gap-3 p-1'>
     
-    <div className="flex gap-4">
-        <p>Mon to Fir@9am to 6pm</p>
-        <img src="src\assets\icons\fb.svg" alt="facebook-logo" className='w-7' />
-        <img src="src\assets\icons\X.svg" alt="twitter-logo" />
-        <img src="src\assets\icons\instagram.svg" alt="instagram-logo" className='w-7' />
-        <img src="src\assets\icons\skype.svg" alt="skype-logo" className='w-7' />
+    <div id='address-icon' className="flex gap-4">
+        <p>Mon to Fir 9am to 6pm</p>
+        <a href="##"><img src="src\assets\icons\fb.svg" alt="facebook-logo" className='w-7' /></a>
+        <a href="##"><img src="src\assets\icons\X.svg" alt="twitter-logo" /></a>
+        <a href="##"><img src="src\assets\icons\ig.svg" alt="instagram-logo" className='w-7' /></a>
+        <a href="##"><img src="src\assets\icons\skype2.svg" alt="skype-logo" className='w-7' /></a>
     </div>
     
-    <div className="flex pr-28 gap-3">
+    <div id='address-icon' className="flex pr-28 gap-3">
         <img src="src\assets\icons\phone.svg" alt="phone-logo" />
-        <a href="tel:+1800001658" className='text-white mr-10'>
-        +1800001658</a>
+        <a href="tel:+1800001658" className='text-white mr-10 hover:text-[#fb923c] '>+1800001658</a>
         <img src="src\assets\icons\message.svg" alt="message-logo" />
-        <a href="mailto:someone@example.com" className='text-white'>
-            info@Peacefulthemes.com</a>
+        <a href="mailto:someone@example.com" className='text-white hover:text-[#fb923c] '>info@Peacefulthemes.com</a>
 
     </div>
 
