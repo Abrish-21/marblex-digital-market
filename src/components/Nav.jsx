@@ -1,6 +1,6 @@
 function Nav() {
   return (<>
-  <nav id="navbar" className= "w-ful flex gap-36 bg-white h-24">
+  <nav id="navbar" className= " pl-10 w-ful flex gap-36 bg-white h-24">
         <div className="flex gap-1">
           <img id="logo-icon" src="src\assets\icons\logo.svg" alt="logo" />
           <h1 className="text-[#fb923c] font-serif hover:text-slate-950">Marblex</h1>
