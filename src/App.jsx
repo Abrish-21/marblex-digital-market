@@ -5,12 +5,11 @@ const App =() =>{
       <section className='relative'>
       <Home/>
       </section> 
-      <br />
 
       <section>
         <About/>
         </section>
-        <br />
+
 
       <section>
         <ShowRoom/>

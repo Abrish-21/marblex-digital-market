@@ -6,11 +6,18 @@ export default {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        palanquin: ['Palanquin', 'sans-serif'],
-        montserrat: ['Montserrat', 'sans-serif'],
-        'courier': ['Courier New', 'monospace'],
-        garamond: ['Garamond', 'serif'],
+      keyframes: {
+        'move-back-forth': {
+          '0%, 100%': { transform: 'translateX(100px)' },
+          '50%': { transform: 'translateX(0)' },
+        },
+        'move-forth-back': {
+          '0%, 100%': { transform: 'translateX(0)' },
+          '50%': { transform: 'translateX(100px)' },
+        },
+      },
+      animation: {
+        'move-back-forth': 'move-back-forth 2s ease-in-out infinite',
       },},
   },
   plugins: [],

@@ -3,7 +3,7 @@ function Nav() {
   <nav id="navbar" className= " pl-10 w-ful flex gap-36 bg-white h-24">
         <div className="flex gap-1">
           <img id="logo-icon" src="src\assets\icons\logo.svg" alt="logo" />
-          <h1 className="text-[#fb923c] font-serif hover:text-slate-950">Marblex</h1>
+          <h1 className="hover:text-[#fb923c] font-serif text-slate-950">Marblex</h1>
           </div>
 
         <ul id="arrow-icon" className="text-black flex gap-11 nav-list">
@@ -32,7 +32,7 @@ function Nav() {
             </div>
 
         </ul>
-        <div id="icons-navbar" className="flex gap-3">
+        <div  className="flex gap-3 size-11">
           <img  src="src\assets\icons\search.svg" alt="search-icon" />
           <img src="src\assets\icons\hamburger.svg" alt="hamburger-icon" />
         </div>

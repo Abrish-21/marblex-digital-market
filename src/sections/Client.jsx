@@ -1,7 +1,13 @@
 function Client() {
-  return (
-    <div><p>Client</p></div>
-  )
+
+
+
+
+  return (<>
+   
+    </>
+  
+ )
 }
 
 export default Client
