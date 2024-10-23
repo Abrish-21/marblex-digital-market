@@ -1,7 +1,7 @@
 import {About,ShowRoom, Client, FAQ, Footer , Home, OurSkill, Services, Testimony} from './sections/index';
 const App =() =>{
   return (
-    <main>
+    <main className='bg-[url("src/assets/images/pexels-skylar-kang-6044820.jpg")] bg-cover bg-slate-500 bg-blend-soft-light'>
       <section className='relative'>
       <Home/>
       </section> 

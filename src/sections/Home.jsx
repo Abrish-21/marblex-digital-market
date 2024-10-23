@@ -18,14 +18,12 @@ function Home() {
           <br />
           <br />
           <h1 className="text-7xl">Forever Fresh And <br />Stunning</h1>
-          <div className="container relative">
-            <button className=" animate-pulse bg-[#c07d47] px-8 py-4 mt-10 rounded-none">
+            <button className=" bg-[#c07d47] px-8 py-4 mt-10 rounded-none">
             <div className="flex">
               READ MORE
               <img src="src\assets\icons\arrow.svg" alt="skype-logo" className='w-7' />
             </div>
             </button>
-          </div>
         </div>
           <div className=" bg-[#864e1f] ">
 
@@ -37,10 +35,10 @@ function Home() {
               </div>
 
             <div class   className="flex gap-8 mt-24 ml-4">
-            <button className="size-11 animate-pulse bg-[#fb923c] px-3 py-1.5 rounded-none hover:bg-amber-500">
+            <button className="size-11  bg-[#fb923c] px-3 py-1.5 rounded-none hover:bg-amber-500">
                 <img src="src\assets\icons\previous.svg" alt="" />
               </button>
-              <button  className="size-11 animate-pulse bg-[#fb923c] px-3 py-1.5 rounded-none hover:bg-amber-500">
+              <button  className="size-11 bg-[#fb923c] px-3 py-1.5 rounded-none hover:bg-amber-500">
                 <img src="src\assets\icons\next.svg" alt="" />
               </button>
               

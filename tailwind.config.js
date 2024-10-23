@@ -7,7 +7,9 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        'BebasNeueStatic': ['Babas Neue']
+        'BebasNeueStatic': ['Babas Neue'],
+        'roboto': ['Roboto'],
+        
       
       }
      },
