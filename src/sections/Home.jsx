@@ -3,12 +3,12 @@ import Nav from '../components/Nav';
 
 function Home() {
   return (
-    <div className="grid w-screen  md:grid-rows-[32px_15fr_85fr]
+    <div className="grid w-screen  md:grid-rows-[32px_12fr_85fr]
      sm:grid-rows-[1px_25fr_75fr] ">
-      <div className="bg-green-700">
+      <div>
         <Address/>
       </div>
-      <div className="sticky top-0 bg-yellow-300">
+      <div className="sticky top-0 ">
         <Nav/>
       </div>
       <div className=" bg-[url('src/assets/images/homepage-background.jpg')]

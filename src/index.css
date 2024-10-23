@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 
 
@@ -35,7 +35,7 @@
   position: absolute;
   left: 0;
   top: 50%;
-  height: 1px; /* Thickness of the line */
+  height: 2px; /* Thickness of the line */
   width: 40px; /* Length of the line */
   background-color:#fb923c ; /* Line color */
   transform: translateY(-50%);
