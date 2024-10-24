@@ -1,9 +1,9 @@
-const MarbelCard = ({Img}) =>{
+const MarbelCard = ({ Img }) => {
   return (
-    <div  className="object-cover  w-[10rem] h-[5reme] hover:-translate-y-6">
-        <img src="{Img" alt="marbel-photo" />
+  <div className="w-[20rem] h-[13rem] hover:-translate-y-3  rounded-lg">
+      <img src={Img} alt="marble-photo" className="w-full h-full object-cover " />
     </div>
-  )
-}
+  );
+};
 
-export default MarbelCard
+export default MarbelCard;
