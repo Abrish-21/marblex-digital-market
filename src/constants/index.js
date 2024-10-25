@@ -5,11 +5,15 @@ import travertine from "../assets/images/marbel/4.png";
 import onyx from "../assets/images/marbel/5.png";
 import granite from "../assets/images/marbel/6.png";
 
-const marbelImages = [{name: "Marbel", img: marbel},{name: "Limestone", img: limestone},{name: "Quartzite", img: quartzite},{name: "Travertine", img: travertine},{name: "Onyx", img: onyx},{name: "Granite", img: granite}
 
-]
-  
+import image2 from "../assets/images/marbel1.jpg"
+import image3 from "../assets/images/marbel2.jpg"
 
-
+const marbelImages = [{name: "Marbel", img: marbel},{name: "Limestone", img: limestone},{name: "Quartzite", img: quartzite},{name: "Travertine", img: travertine},{name: "Onyx", img: onyx},{name: "Granite", img: granite}]
 export default marbelImages;
 
+
+
+
+
+export const backgroundImg = [ image2, image3];

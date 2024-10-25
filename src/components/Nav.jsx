@@ -1,10 +1,13 @@
 function Nav() {
   return (<>
-  <nav id="navbar" className= " pl-10 w-ful flex gap-36 bg-white h-24">
-        <div className="flex gap-1">
+  <nav id="navbar" className= " z-10 pl-10 w-ful flex gap-36 bg-slate-200 h-24">
+    <a href="##home">
+    <div className="flex gap-1 text-slate-950">
           <img id="logo-icon" src="src\assets\icons\logo.svg" alt="logo" />
-          <h1 className="hover:text-[#fb923c] font-serif text-slate-950">Marblex</h1>
+          <h1 className=" font-serif">Marblex</h1>
           </div>
+    </a>
+        
 
         <ul id="arrow-icon" className="text-black flex gap-11 nav-list">
             <div id="nav-item" >

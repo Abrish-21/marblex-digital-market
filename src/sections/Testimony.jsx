@@ -1,7 +1,9 @@
-function Testimony() {
-  return (
-    <div><p>Testimony</p></div>
-  )
-}
+import React from 'react';
 
-export default Testimony
+const Testimony = () => {
+  return (
+    <p className='text-black'>Testimony</p>
+  );
+};
+
+export default Testimony;

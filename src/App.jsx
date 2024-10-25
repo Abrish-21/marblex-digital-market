@@ -1,8 +1,19 @@
+
 import {About,ShowRoom, Client, FAQ, Footer , Home, OurSkill, Services, Testimony} from './sections/index';
+import Nav from './components/Nav';
+import Address from './components/Address';
 const App =() =>{
   return (
     <main className='bg-[url("src/assets/images/pexels-skylar-kang-6044820.jpg")] bg-cover bg-slate-500 bg-blend-soft-light'>
-      <section className='relative'>
+      <section>
+        <Address/>
+      </section>
+      <section className=" top-0 sticky">
+        <Nav/>
+      </section>
+      
+      <section>
+
       <Home/>
       </section> 
 
@@ -14,37 +25,31 @@ const App =() =>{
       <section>
         <ShowRoom/>
       </section>
-      <br />
 
       <section>
         <OurSkill/>
       </section>
-      <br />
 
-      <section>
+      <section className='bg-white overflow-hidden'>
         <Services/>
       </section>
-      <br />
+      
 
-      <section>
+     <section className='bg-white overflow-hidden relative'>
         <Client/>
-      </section>
-      <br />
+      </section> 
 
-      <section>
+      <section className='bg-white'>
         <Testimony/>
       </section>
-      <br />
 
       <section>
         <FAQ/>
       </section>
-      <br />
 
       <section>
         <Footer/>
       </section>
-      <br />
       
     </main>
   );

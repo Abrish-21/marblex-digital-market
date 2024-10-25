@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg width="800px" height="800px" viewBox="-0.5 0 25 25" xmlns="http://www.w3.org/2000/svg">
   <!-- Red background rectangle -->
-  <rect x="0" y="0" width="25" height="25" fill="#fb923c"/> <!-- Optional: add rx for rounded corners -->
+  <rect x="0" y="0" width="25" height="25" fill="rgba(247,168,103,0.92)"/> <!-- Optional: add rx for rounded corners -->
   
   <!-- Hamburger lines -->
   <path d="M2 12.32H22" stroke="#000000"  />

@@ -8,7 +8,7 @@ function About() {
   <div className="">
       <div className="w-full p-20 bg-white grid grid-cols-[34fr_30fr_30fr] gap-3">
         <div>
-          <p className="line-before mb-4 font-BebasNeueStatic font-semibold text-[#fb923c]">ABOUT US</p>
+          <p className="line-before mb-4 font-BebasNeueStatic font-semibold text-[rgba(247,168,103,0.92)]">ABOUT US</p>
           <h1 className=" pl-5 font-BebasNeueStatic text-black">We Have A To Of<br></br> Fun  Process We Grow</h1>
           <div className="mt-6 mb-6">
             <BulletSentence text = "Come to Our marblex Office for a Visit" />
@@ -39,13 +39,13 @@ function About() {
           <img className=" cover w-[40rem] h-[35rem] center object-cover" src="src\assets\images\modern-luxury-living-room-interior.jpg"  alt="bath-room" />
         </div>
         <div className=" font-BebasNeueStatic font-semibold flex flex-col gap-4 pt-16">
-        <p className="line-before mb-4 font-BebasNeueStatic font-semibold text-[#fb923c]">ABOUT US</p>
+        <p className="line-before mb-4 font-BebasNeueStatic font-semibold text-[rgba(247,168,103,0.92)]">ABOUT US</p>
         <h1>Visit Our Marble & Granite Display Warehoues</h1>
         <p>Marblex could potentially use display warehoues to showcase its range of<br></br> marbel products such as slates, tiles, and countertops </p>
         <div className="font-bold text-3xl flex flex-col gap-7 w-2/3">
-         <p><span className="text-[#fb923c]">01  </span>     The best Marbel Company</p>
-         <p className="border-t border-[#fb923c] my-2"></p>
-         <p>< span className="text-[#fb923c]">02  </span>     Granite & Marbel Supplies</p>
+         <p><span className="text-[rgba(247,168,103,0.92)]">01  </span>     The best Marbel Company</p>
+         <p className="border-t border-[rgba(247,168,103,0.92)] my-4"></p>
+         <p>< span className="text-[rgba(247,168,103,0.92)]">02  </span>     Granite & Marbel Supplies</p>
         </div>
         </div>
         

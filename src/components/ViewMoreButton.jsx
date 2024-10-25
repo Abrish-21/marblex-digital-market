@@ -1,8 +1,8 @@
 const ViewMoreButton = ({text})=>{
     return(
-        <button className=" bg-[#c07d47] px-8 py-4 mt-10 rounded-none hover:-translate-y-6">
+        <button className=" bg-[rgba(247,168,103,0.92)] px-6 py-2 mt-10 rounded-none">
         <div className="flex">
-        {text}
+          <p>{text}</p>
           <img src="src\assets\icons\arrow.svg" alt="skype-logo" className='w-7' />
         </div>
         </button>
