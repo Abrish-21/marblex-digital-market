@@ -9,6 +9,10 @@
 @tailwind utilities;
 
 
+
+
+
+
 :root {
   font-family: Playwrite GB S;
   line-height: 1.5;
@@ -57,6 +61,7 @@
   height: 60px;
   object-fit: cover;
 }
+
 #icons-navbar
 {
 
@@ -134,4 +139,44 @@ button {
 #nav-list:hover
 {
   color:#fb923c;
+}
+/* src/components/PartnerLogo.css */
+.partner-logo {
+  filter: grayscale(1);
+  transition: filter 0.3s ease;
+}
+
+.partner-logo:hover {
+  filter: grayscale(0);
+}
+
+
+
+/* this is navbar sliding animation */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.5s ease; /* Slide-in effect */
+}
+
+.navbar.fixed {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  transform: translateY(-100%); /* Start with hidden position */
+}
+
+.navbar.visible.fixed {
+  transform: translateY(0); /* Slide down into view */
 }

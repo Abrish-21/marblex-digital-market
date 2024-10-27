@@ -4,7 +4,7 @@ import marbelImages from "../constants"
 
 function ShowRoom() {
   return (<>
-    <div className="mt-9  p-20 flex gap-80">
+    <div className=" p-14 flex gap-80">
       <div>
          <p className="line-before mb-4 font-BebasNeueStatic text-[rgba(247,168,103,0.92)]">CHOOSE YOUR STONE</p>
          <h1 className="text-5xl font-roboto font-bold">Showroom with 250 Selections</h1>

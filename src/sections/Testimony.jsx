@@ -1,9 +1,9 @@
-import React from 'react';
-
 const Testimony = () => {
   return (
-    <p className='text-black'>Testimony</p>
-  );
+    <div>
+      <p>Testimony</p>
+</div>
+   );
 };
 
 export default Testimony;
