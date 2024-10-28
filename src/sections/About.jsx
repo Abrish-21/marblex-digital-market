@@ -5,7 +5,7 @@ import ViewMoreButton from "../components/ViewMoreButton";
 
 function About() {
   return (
-    <div className="min-h-screen">
+    <div className="relative">
       <div className="w-full p-10 bg-white grid grid-cols-[34fr_30fr_30fr]">
         <div className="scale-[85%]">
           <div>

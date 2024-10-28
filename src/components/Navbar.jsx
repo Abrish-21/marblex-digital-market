@@ -1,7 +1,28 @@
-function Nav() {
+import React, { useState, useEffect } from 'react';
+
+function Navbar() {
+  const [isFixed, setIsFixed] = useState(false); // Tracks if navbar should be fixed
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScroll = window.scrollY;
+
+      if (currentScroll > 150) {
+        setIsFixed(true);
+      } else {
+        setIsFixed(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+  // <header className={`navbar ${isFixed ? 'slide-down' : 'relative'}`}>
+
   return (
+    
     <>
-      <nav id="navbar" className="relative shadow-md z-50 pl-10 w-full flex gap-36 bg-white shadow- h-24">
+      <nav id="navbar" className={`navbar ${isFixed ? ' slide-down' : 'relative'}`}>
         <a href="##home">
           <div className="flex gap-1 text-slate-950">
             <img id="logo-icon" src="src/assets/icons/logo.svg" alt="logo" />
@@ -38,4 +59,4 @@ function Nav() {
   );
 }
 
-export default Nav;
+export default Navbar;

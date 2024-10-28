@@ -1,16 +1,16 @@
 import { About, ShowRoom, Client, FAQ, Footer, Home, OurSkill, Services, Testimony } from './sections/index';
-import Nav from './components/Nav';
+import Navbar from './components/Navbar';
 import Address from './components/Address';
 
 
 const App = () => {
   return (
     <main className='bg-[url("src/assets/images/pexels-skylar-kang-6044820.jpg")] bg-cover bg-slate-500 bg-blend-soft-light'>
-      <section>
+      <section className=''>
         <Address />
       </section>
-      <section className="top-0 sticky z-50">
-        <Nav />
+      <section className=' '>
+        <Navbar />
       </section>
       <section>
         <Home />

@@ -152,31 +152,35 @@ button {
 
 
 
-/* this is navbar sliding animation */
+/* this is the navbar styling coming up */
 
-body {
-  margin: 0;
-  padding: 0;
-}
+/* Navbar styling */
 
 .navbar {
-  position: absolute;
-  top: 0;
+
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   width: 100%;
+  height: 100px;
   background-color: #333;
   color: #fff;
-  padding: 20px;
+  padding-left: 2.5rem;
+  display: flex;
+  gap: 9rem;
+  background-color: white;
+
   text-align: center;
-  transition: transform 0.5s ease; /* Slide-in effect */
+  transition: transform 1s ease-in-out; /* Smooth slide effect */
+  z-index: 50;
+  transform: translateY(0);
+  box-shadow: #333;
 }
 
-.navbar.fixed {
+.navbar.slide-down {
   position: fixed;
   top: 0;
-  z-index: 1000;
-  transform: translateY(-100%); /* Start with hidden position */
-}
+  transform: translateY(0); /* Slides down into view */
 
-.navbar.visible.fixed {
-  transform: translateY(0); /* Slide down into view */
+  z-index: 1000;
 }
