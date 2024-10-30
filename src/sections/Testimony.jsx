@@ -1,7 +1,7 @@
 const Testimony = () => {
   return (
-    <div>
-      <p>Testimony</p>
+    <div className="w-full h-screen">
+  
 </div>
    );
 };

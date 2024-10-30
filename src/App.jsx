@@ -12,6 +12,7 @@ const App = () => {
       <section className=' '>
         <Navbar />
       </section>
+  
       <section>
         <Home />
       </section>

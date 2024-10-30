@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { backgroundImg } from "../constants";
 import ViewMoreButton from "../components/ViewMoreButton";
+// import IndicatorsDemo from "../components/IndicatorsDemo";
 
 function Home() {
   const [Imgindex, setImgIndex] = useState(0); //Tracks change in image
-
 
   const ShowprevImg = () => {
     setAnimationActive(true)
@@ -33,6 +33,7 @@ function Home() {
               <ViewMoreButton text="Read More" />
           </div>
           <div className="bg-[#fb923c] h-full w-[30rem]">
+          
             
             </div>
             </div>

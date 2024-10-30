@@ -19,7 +19,8 @@ const OurSkill = () => {
         </div>
       
         <div className="w-full flex flex-col gap-10 relative">
-          <div className="sticky -top-16 pr-14">
+
+            <div className="sticky -top-16 pr-14"> 
             <SkillCard  title="Carpets & Rugs" discreption=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, maiores repellendus cumque harum impedit ad ducimus repellat asperiores laboriosam, eos sint sapiente porro natus vero nulla beatae soluta nesciunt! Adeaque alias qui esse iste cupiditate eius, beatae soluta. Sunt." 
             logo="src\assets\icons\brands/brand5.svg"/>
           </div>

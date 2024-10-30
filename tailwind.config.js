@@ -9,6 +9,7 @@ export default {
       fontFamily:{
         'BebasNeueStatic': ['Babas Neue'],
         'roboto': ['Roboto'],
+        'playwrite': ['Playwrite GB S', 'serif'],
         
       
       },
