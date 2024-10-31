@@ -5,19 +5,19 @@ import Address from './components/Address';
 
 const App = () => {
   return (
-    <main className='bg-[url("src/assets/images/pexels-skylar-kang-6044820.jpg")] bg-cover bg-slate-500 bg-blend-soft-light'>
+    <main className='bg-[url("src/assets/images/pexels-skylar-kang-6044820.jpg")] bg-cover bg-slate-700 bg-blend-soft-light'>
       <section className=''>
         <Address />
       </section>
-      <section className=' '>
+      <section className=''>
         <Navbar />
       </section>
   
       <section>
         <Home />
       </section>
-      <section>
-        <About />
+      <section id='about-us'>
+        <About  />
       </section>
       <section>
         <ShowRoom />
@@ -31,13 +31,13 @@ const App = () => {
       <section className='bg-white overflow-hidden relative'>
         <Client />
       </section>
-      <section className='bg-white'>
+      <section className=''>
         <Testimony />
       </section>
-      <section>
+      <section className='bg-white'>
         <FAQ />
       </section>
-      <section>
+      <section className='bg-none'>
         <Footer />
       </section>
     </main>

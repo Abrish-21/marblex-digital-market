@@ -6,14 +6,28 @@ import onyx from "../assets/images/marbel/5.png";
 import granite from "../assets/images/marbel/6.png";
 
 
-import image2 from "../assets/images/marbel1.jpg"
-import image3 from "../assets/images/marbel2.jpg"
+import cover1 from "../assets/images/livingroom.jpg"
+import cover2 from "../assets/images/homepage-background.jpg"
+import cover3 from "../assets/images/os-media-JDvQvdqITzs-unsplash.jpg"
+
+export const CoverImages = [
+  {
+    src: 'src/assets/images/livingroom.jpg',
+    text: 'Forever Fresh and Stunning'
+  },
+  {
+    src: 'src/assets/images/homepage-background.jpg',
+    text: 'We Strive for  Your Comfort'
+  },
+  {
+    src: 'src/assets/images/os-media-JDvQvdqITzs-unsplash.jpg',
+    text: 'Bringing the best to you'
+  }
+];
+
+
 
 const marbelImages = [{name: "Marbel", img: marbel},{name: "Limestone", img: limestone},{name: "Quartzite", img: quartzite},{name: "Travertine", img: travertine},{name: "Onyx", img: onyx},{name: "Granite", img: granite}]
 export default marbelImages;
 
 
-
-
-
-export const backgroundImg = [ image2, image3];

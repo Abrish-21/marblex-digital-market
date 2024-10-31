@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { Dropdown } from 'primereact/dropdown';
 import NavItem from './NavItem';
@@ -6,6 +7,7 @@ import SidebarDemo from './SidebarDemo';
 
 function Navbar() {
   const [isFixed, setIsFixed] = useState(false); // Tracks if navbar should be fixed
+
 
   // Dropdown options for each nav item
   const homeDropdownItems = [
@@ -33,6 +35,7 @@ function Navbar() {
   useEffect(() => {
     const handleScroll = () => {
       const currentScroll = window.scrollY;
+      
       setIsFixed(currentScroll > 150);
     };
 
@@ -40,8 +43,8 @@ function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  return (
-    <header className={`navbar ${isFixed ? 'slide-down' : 'relative'}`}>
+  return(
+    <header className={`navbar ${isFixed ? 'slide-down' : 'absolute'}`}>
       <nav id="navbar" className="flex items- gap-24 justify-start items-center p-4">
       
     <a href="#home" className="flex items-center gap-1 text-slate-950">

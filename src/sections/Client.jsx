@@ -1,5 +1,5 @@
 import PartnerLogo from "../components/PartnerLogo";
-import ViewMoreButton from "../components/ViewMoreButton";
+import ViewMoreButton from "../components/Button";
 
 const Client = () => {
   return (

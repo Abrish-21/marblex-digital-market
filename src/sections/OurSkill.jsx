@@ -1,5 +1,5 @@
 import SkillCard from "../components/SkillCard";
-import ViewMoreButton from "../components/ViewMoreButton";
+import ViewMoreButton from "../components/Button";
 
 const OurSkill = () => {
   return (

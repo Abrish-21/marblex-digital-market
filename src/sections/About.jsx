@@ -1,7 +1,7 @@
 import BulletSentence from "../components/BulletSentence";
 import ProfileCard from "../components/ProfileCard";
 import ProgressBar from "../components/ProgressBar";
-import ViewMoreButton from "../components/ViewMoreButton";
+import ViewMoreButton from "../components/Button";
 
 function About() {
   return (

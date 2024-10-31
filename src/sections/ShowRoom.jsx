@@ -1,5 +1,5 @@
 import MarbelCard from "../components/MarbelCard"
-import ViewMoreButton from "../components/ViewMoreButton"
+import ViewMoreButton from "../components/Button"
 import marbelImages from "../constants"
 
 function ShowRoom() {
