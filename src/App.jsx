@@ -28,10 +28,10 @@ const App = () => {
       <section className='bg-white overflow-hidden'>
         <Services />
       </section>
-      <section className='bg-white overflow-hidden relative'>
+      <section className='bg-white overflow-hidden relative '>
         <Client />
       </section>
-      <section className=''>
+      <section className='bg-none'>
         <Testimony />
       </section>
       <section className='bg-white'>
