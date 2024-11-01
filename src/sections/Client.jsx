@@ -27,19 +27,19 @@ const Client = () => {
           <PartnerLogo img= {brand3} />
         </div>
         <div className="border border-gray-300 hover:text-red-500 text-white flex items-center justify-center">
-          <PartnerLogo img="src/assets/icons/brands/brand4.svg" />
+          <PartnerLogo img={brand4} />
         </div>
         <div className="border border-gray-300 hover:text-red-500 text-white flex items-center justify-center">
-          <PartnerLogo img="src/assets/icons/brands/brand1.svg" />
+          <PartnerLogo img={brand1} />
         </div>
         <div className="border border-gray-300 hover:text-red-500 text-white flex items-center justify-center">
-          <PartnerLogo img="src/assets/icons/brands/brand6.svg" />
+          <PartnerLogo img= {brand6} />
         </div>
         <div className="border border-gray-300 hover:text-red-500 text-white flex items-center justify-center">
-          <PartnerLogo img="src/assets/icons/brands/brand7.svg" />
+          <PartnerLogo img={brand2} />
         </div>
         <div className="border border-gray-300 hover:text-red-500 text-white flex items-center justify-center">
-          <PartnerLogo img="src/assets/icons/brands/brand2.svg" />
+          <PartnerLogo img={brand7} />
         </div>
         <div className="border border-gray-300 hover:text-red-500 text-white flex items-center justify-center">
           <h1 className="text-[#fb923c] pl-6 partner-logo hover:animate-pulse hover:duration-100 hover:ease-in-out">Join Our Team</h1>

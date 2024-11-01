@@ -47,7 +47,7 @@ function Navbar() {
   };
 
   return (
-    <header className={`navbar ${isFixed ? 'slide-down' : 'absolute'}`}>
+    <header className={`navbar w-full ${isFixed ? 'slide-down' : 'absolute'}`}>
       <nav id="navbar" className="flex items-center gap-24 justify-start p-4">
         <a href="#home" className="flex items-center gap-1 text-slate-950">
           <img id="logo-icon" src={logo} alt="logo" />

@@ -10,7 +10,7 @@ import message from '../assets/icons/message.svg'
 
 function Address() {
   return (
-    <address id='align-center' className='w-ful bg-[#1E293B] pl-3 rounded-none font-sans
+    <address id='align-center' className='w-full bg-[#1E293B] pl-3 rounded-none font-sans
      justify-between flex  gap-3 p-3'>
     
     <div className="flex gap-4">

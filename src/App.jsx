@@ -8,7 +8,7 @@ import bg from './assets/images/pexels-skylar-kang-6044820.jpg';
 const App = () => {
   useScrollAnimation();
   return (
-    <main className='bg-cover bg-slate-700 bg-blend-soft-light'
+    <main className='bg-cover bg-slate-700 max-w-full bg-blend-soft-light'
     style={{ backgroundImage: `url(${bg})` }}
     >
       <section><Address /></section>
