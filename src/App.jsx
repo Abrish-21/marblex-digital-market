@@ -1,43 +1,40 @@
 import { About, ShowRoom, Client, FAQ, Footer, Home, OurSkill, Services, Testimony } from './sections/index';
 import Navbar from './components/Navbar';
 import Address from './components/Address';
-
+import useScrollAnimation from './hooks/useScrollAnimation';
 
 const App = () => {
+  useScrollAnimation();
   return (
     <main className='bg-[url("src/assets/images/pexels-skylar-kang-6044820.jpg")] bg-cover bg-slate-700 bg-blend-soft-light'>
-      <section className=''>
-        <Address />
-      </section>
-      <section className=''>
-        <Navbar />
-      </section>
+      <section><Address /></section>
+      <section><Navbar /></section>
   
-      <section>
+      <section className="opacity-0 animate-on-scroll slide-in-left">
         <Home />
       </section>
-      <section id='about-us'>
+      <section id='about-us' className="opacity-0 animate-on-scroll slide-in-right">
         <About  />
       </section>
-      <section>
+      <section className="opacity-0 animate-on-scroll slide-in-left">
         <ShowRoom />
       </section>
-      <section>
+      <section className="opacity-0 animate-on-scroll slide-in-right">
         <OurSkill />
       </section>
-      <section className='bg-white overflow-hidden'>
+      <section className='bg-white overflow-hidden opacity-0 animate-on-scroll slide-in-left'>
         <Services />
       </section>
-      <section className='bg-white overflow-hidden relative '>
+      <section className='bg-white overflow-hidden relative opacity-0 animate-on-scroll slide-in-right'>
         <Client />
       </section>
-      <section className='bg-none'>
+      <section className='bg-none opacity-0 animate-on-scroll slide-in-left'>
         <Testimony />
       </section>
-      <section className='bg-white'>
+      <section className='bg-white opacity-0 animate-on-scroll slide-in-right'>
         <FAQ />
       </section>
-      <section className='bg-none'>
+      <section className='bg-none opacity-0 animate-on-scroll slide-in-left'>
         <Footer />
       </section>
     </main>
