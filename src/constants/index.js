@@ -12,15 +12,15 @@ import cover3 from "../assets/images/os-media-JDvQvdqITzs-unsplash.jpg"
 
 export const CoverImages = [
   {
-    src: 'src/assets/images/livingroom.jpg',
+    src: cover1,
     text: 'Forever Fresh and Stunning'
   },
   {
-    src: 'src/assets/images/homepage-background.jpg',
+    src: cover2,
     text: 'We Strive for  Your Comfort'
   },
   {
-    src: 'src/assets/images/os-media-JDvQvdqITzs-unsplash.jpg',
+    src: cover3,
     text: 'Bringing the best to you'
   }
 ];

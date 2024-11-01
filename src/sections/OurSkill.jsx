@@ -1,5 +1,10 @@
 import SkillCard from "../components/SkillCard";
 import ViewMoreButton from "../components/Button";
+import img10 from '../assets/icons/brands/brand5.svg';
+import img11 from '../assets/icons/brands/brand5.svg';
+import img12 from '../assets/icons/stones/stone1.svg';
+import img13 from '../assets/icons/stones/stone2.svg';
+import img14 from '../assets/icons/stones/stone3.svg';
 
 const OurSkill = () => {
   return (
@@ -22,27 +27,27 @@ const OurSkill = () => {
 
             <div className="sticky -top-16 pr-14"> 
             <SkillCard  title="Carpets & Rugs" discreption=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, maiores repellendus cumque harum impedit ad ducimus repellat asperiores laboriosam, eos sint sapiente porro natus vero nulla beatae soluta nesciunt! Adeaque alias qui esse iste cupiditate eius, beatae soluta. Sunt." 
-            logo="src\assets\icons\brands/brand5.svg"/>
+            logo={img10}/>
           </div>
       
           <div className="sticky -top-16 pr-14">
             <SkillCard  title="Laminate Flooring" discreption=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, maiores repellendus cumque harum impedit ad ducimus repellat asperiores laboriosam, eos sint sapiente porro natus vero nulla beatae soluta nesciunt! Adeaque alias qui esse iste cupiditate eius, beatae soluta. Sunt." 
-            logo="src\assets\icons\stones\stone3.svg"/>
+            logo={img11} />
           </div>
       
           <div className="sticky -top-16 pr-14">
             <SkillCard  title="Mabric Floorling" discreption=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, maiores repellendus cumque harum impedit ad ducimus repellat asperiores laboriosam, eos sint sapiente porro natus vero nulla beatae soluta nesciunt! Adeaque alias qui esse iste cupiditate eius, beatae soluta. Sunt." 
-            logo="src\assets\icons\stones\stone1.svg"/>
+            logo={img12}/>
           </div>
       
           <div className="sticky -top-16 pr-14">
             <SkillCard  title="Ceramic Tile" discreption=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, maiores repellendus cumque harum impedit ad ducimus repellat asperiores laboriosam, eos sint sapiente porro natus vero nulla beatae soluta nesciunt! Adeaque alias qui esse iste cupiditate eius, beatae soluta. Sunt." 
-            logo="src\assets\icons\stones\stone2.svg"/>
+            logo={img13}/>
           </div>
       
           <div className="sticky -top-16 pr-14">
             <SkillCard  title="Industrial Flooring" discreption=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, maiores repellendus cumque harum impedit ad ducimus repellat asperiores laboriosam, eos sint sapiente porro natus vero nulla beatae soluta nesciunt! Adeaque alias qui esse iste cupiditate eius, beatae soluta. Sunt." 
-            logo="src\assets\icons\stones\stone4.svg"/>
+            logo={img13}/>
           </div>
       
           

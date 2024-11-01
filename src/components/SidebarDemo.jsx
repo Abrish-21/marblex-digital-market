@@ -1,8 +1,13 @@
 
 import React, { useState } from 'react';
 import { Sidebar } from 'primereact/sidebar';
-import { Button } from 'primereact/button';
 import SideGallary from './SideGallary';
+import stone1 from '../assets/icons/stones/stone1.svg'
+import stone2 from '../assets/icons/stones/stone2.svg'
+import stone3 from '../assets/icons/stones/stone3.svg'
+import stone4 from '../assets/icons/stones/stone4.svg'
+import stone5 from '../assets/icons/stones/stone5.svg'
+import smileIcon from '../assets/icons/brands/smile-svgrepo-com.svg'
 
 export default function PositionDemo() {
     const [visibleRight, setVisibleRight] = useState(false);
@@ -30,17 +35,17 @@ export default function PositionDemo() {
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
                 <div className="grid grid-cols-[30fr_30fr_30fr] grid-rows-[4rem_4rem] mt-6 border-2 gap-5 border-orange-400 p-6">
-                    <SideGallary img="src\assets\icons\stones\stone1.svg" />
-                    <SideGallary img="src\assets\icons\stones\stone5.svg" />
-                    <SideGallary img="src\assets\icons\stones\stone2.svg" />
-                    <SideGallary img="src\assets\icons\stones\stone3.svg" />
-                    <SideGallary img="src\assets\icons\stones\stone4.svg" />
-                    <SideGallary img="src\assets\icons\stones\stone1.svg" />
+                    <SideGallary img={stone1} />
+                    <SideGallary img={stone2}/>
+                    <SideGallary img={stone3} />
+                    <SideGallary img= {stone4} />
+                    <SideGallary img= {stone5} />
+                    <SideGallary img= {stone1} />
               
                 </div>
                 <div className="justify-center ml-10 mt-4 font-playwrite text-3xl text-gray-950">
                     <p>Thank You</p>
-                    <img src="src\assets\icons\brands\smile-svgrepo-com.svg" alt="" className='mt-4 animate-bounce  size-20 ml-14'/>
+                    <img src= {smileIcon} alt="" className='mt-4 animate-bounce  size-20 ml-14'/>
                 </div>  </Sidebar>
 
             <Sidebar visible={visibleTop} position="top" onHide={() => setVisibleTop(false)}>

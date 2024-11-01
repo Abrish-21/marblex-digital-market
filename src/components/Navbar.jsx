@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import NavItem from './NavItem';
 import SidebarDemo from './SidebarDemo';
+import logo from '../assets/icons/logo.svg';
+import search from '../assets/icons/search.svg';
+
 
 function Navbar() {
   const [isFixed, setIsFixed] = useState(false); // Tracks if navbar should be fixed
@@ -47,7 +50,7 @@ function Navbar() {
     <header className={`navbar ${isFixed ? 'slide-down' : 'absolute'}`}>
       <nav id="navbar" className="flex items-center gap-24 justify-start p-4">
         <a href="#home" className="flex items-center gap-1 text-slate-950">
-          <img id="logo-icon" src="src/assets/icons/logo.svg" alt="logo" />
+          <img id="logo-icon" src={logo} alt="logo" />
           <h1 className="font-serif text-gray-950">Marblex</h1>
         </a>
 
@@ -104,7 +107,7 @@ function Navbar() {
         </ul>
 
         <div className="">
-          <img src="src/assets/icons/search.svg" alt="" className="size-10" />
+          <img src= {search} alt="" className="size-10" />
         </div>
         <div className="">
           <SidebarDemo />

@@ -1,5 +1,12 @@
 import PartnerLogo from "../components/PartnerLogo";
 import ViewMoreButton from "../components/Button";
+import brand3 from '../assets/icons/brands/brand3.svg'
+import brand4 from '../assets/icons/brands/brand4.svg'
+import brand1 from '../assets/icons/brands/brand1.svg'
+import brand6 from '../assets/icons/brands/brand6.svg'
+import brand7 from '../assets/icons/brands/brand7.svg'
+import brand2 from '../assets/icons/brands/brand2.svg'
+
 
 const Client = () => {
   return (
@@ -17,7 +24,7 @@ const Client = () => {
           <h1 className="text-[#fb923c] pl-6 partner-logo hover:animate-bounce">Trusted By Many</h1>
         </div>
         <div className="border border-gray-300 hover:text-red-500 text-white flex items-center justify-center">
-          <PartnerLogo img="src/assets/icons/brands/brand3.svg" />
+          <PartnerLogo img= {brand3} />
         </div>
         <div className="border border-gray-300 hover:text-red-500 text-white flex items-center justify-center">
           <PartnerLogo img="src/assets/icons/brands/brand4.svg" />

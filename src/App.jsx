@@ -3,10 +3,14 @@ import Navbar from './components/Navbar';
 import Address from './components/Address';
 import useScrollAnimation from './hooks/useScrollAnimation';
 
+import bg from './assets/images/pexels-skylar-kang-6044820.jpg';
+
 const App = () => {
   useScrollAnimation();
   return (
-    <main className='bg-[url("src/assets/images/pexels-skylar-kang-6044820.jpg")] bg-cover bg-slate-700 bg-blend-soft-light'>
+    <main className='bg-cover bg-slate-700 bg-blend-soft-light'
+    style={{ backgroundImage: `url(${bg})` }}
+    >
       <section><Address /></section>
       <section><Navbar /></section>
   
