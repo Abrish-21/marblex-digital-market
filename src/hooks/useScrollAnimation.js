@@ -2,6 +2,9 @@ import { useEffect } from 'react';
 
 function useScrollAnimation() {
   useEffect(() => {
+    // Check screen width and disable animation on mobile screens
+    if (window.innerWidth < 768) return;
+
     const options = { threshold: 0.1 };
 
     const observer = new IntersectionObserver((entries) => {

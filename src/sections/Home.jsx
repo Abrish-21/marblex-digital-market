@@ -44,16 +44,16 @@ function Home() {
   };
 
   return (
-    <div className="w-full h-screen overflow-hidden relative">
+    <div className="w-full h-screen overflow-hidden relative text-sm lg:text-lg">
       <img src={homescreen} alt="homepage-image" className="w-full h-full object-cover" />
 
-      <div className="grid grid-cols-[70fr_30fr] top-0 left-0 absolute w-full h-screen bg-slate-950 bg-opacity-80 pl-10">
-        <div className="mt-[17rem]">
+      <div className="lg:grid grid-cols-[70fr_30fr] lg:top-0 lg:left-0 absolute w-full h-screen bg-slate-950 bg-opacity-80 lg:pl-10">
+        <div className="lg:mt-[17rem]">
           <p className="line-before">WELCOME TO DIGITAL MARBLEX</p>
           <br />
           <br />
-          <div className="text-container pb-8">
-            <h1 className={`text-7xl ${textClass}`}>{currentText}</h1>
+          <div className="text-container lg:pb-8">
+            <h1 className={`lg:text-7xl ${textClass}`}>{currentText}</h1>
           </div>
           <ViewMoreButton text="Read More" />
         </div>
