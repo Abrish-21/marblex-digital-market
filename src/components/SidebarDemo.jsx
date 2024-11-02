@@ -7,7 +7,9 @@ import stone2 from '../assets/icons/stones/stone2.svg'
 import stone3 from '../assets/icons/stones/stone3.svg'
 import stone4 from '../assets/icons/stones/stone4.svg'
 import stone5 from '../assets/icons/stones/stone5.svg'
+import logo from '../assets/icons/logo.svg'
 import smileIcon from '../assets/icons/brands/smile-svgrepo-com.svg'
+import hamburger from '../assets/icons/hamburger.svg'
 
 export default function PositionDemo() {
     const [visibleRight, setVisibleRight] = useState(false);
@@ -17,7 +19,7 @@ export default function PositionDemo() {
         <div className="card">
             <div className="">
                 <button className='size-10' onClick={()=>setVisibleRight(true)}>
-                    <img src="src/assets/icons/hamburger.svg" alt="" />
+                    <img src={hamburger} alt="" />
                 </button>
 
                 {/* <Button icon="pi pi-arrow-left" onClick={() => setVisibleRight(true)} />
@@ -26,7 +28,7 @@ export default function PositionDemo() {
             </div>
             <Sidebar visible={visibleRight} position="right" onHide={() => setVisibleRight(false)}>
             <div className="flex scale-[80%]">
-                <img id="logo-icon" src="src/assets/icons/logo.svg" alt="logo" />
+                <img id="logo-icon" src= {logo} alt="logo" />
                 <h1 className="font-serif text-gray-950">Marblex</h1>
             </div>
 

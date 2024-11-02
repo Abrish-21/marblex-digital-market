@@ -47,7 +47,7 @@ const OurSkill = () => {
       
           <div className="sticky -top-16 pr-14">
             <SkillCard  title="Industrial Flooring" discreption=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, maiores repellendus cumque harum impedit ad ducimus repellat asperiores laboriosam, eos sint sapiente porro natus vero nulla beatae soluta nesciunt! Adeaque alias qui esse iste cupiditate eius, beatae soluta. Sunt." 
-            logo={img13}/>
+            logo={img14}/>
           </div>
       
           

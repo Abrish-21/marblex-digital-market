@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Address from './components/Address';
 import useScrollAnimation from './hooks/useScrollAnimation';
 
+
 import bg from './assets/images/pexels-skylar-kang-6044820.jpg';
 
 const App = () => {

@@ -3,6 +3,12 @@ import ProfileCard from "../components/ProfileCard";
 import ProgressBar from "../components/ProgressBar";
 import ViewMoreButton from "../components/Button";
 
+
+import profileImg from "../assets/images/profile2.jpg";
+import signImg from "../assets/images/sign1.png";
+import livingRoomImg from "../assets/images/minh-pham-Y6HuHkhrKYU-unsplash.jpg";
+import modernLivingRoomImg from "../assets/images/modern-luxury-living-room-interior.jpg";
+
 function About() {
   return (
     <div className="relative">
@@ -18,14 +24,14 @@ function About() {
               <BulletSentence text="Delivery & Installation" />
             </div>
             <div className="flex">
-              <ProfileCard Img="src/assets/images/profile2.jpg" name="Alex Jhon Martin" role="MANAGER" />
-              <img className="size-28" src="src/assets/images/sign1.png" alt="signature" />
+              <ProfileCard Img={profileImg} name="Alex Jhon Martin" role="MANAGER" />
+              <img className="size-28" src={signImg} alt="signature" />
             </div>
           </div>
         </div>
         <div className="scale-[85%]">
           <div>
-            <img className="h-[30rem] w-[25rem]" src="src/assets/images/minh-pham-Y6HuHkhrKYU-unsplash.jpg" alt="living-room" />
+            <img className="h-[30rem] w-[25rem]" src={livingRoomImg} alt="living-room" />
           </div>
         </div>
         <div className="scale-[85%]">
@@ -34,14 +40,14 @@ function About() {
             <p className="mb-14 text-black">Providing solutions to its customers, Marblex can take a consultative approach, working closely with clients to understand their needs and preferences.</p>
             <ProgressBar text="Wooden Flooring" width={{ width: "76%" }} percent="76" />
             <ProgressBar text="Ceramic Tiles" width={{ width: "90%" }} percent="90" />
-            <ViewMoreButton text = "Read More" />
+            <ViewMoreButton text="Read More" />
           </div>
         </div>
       </div>
       <div className="grid grid-cols-[50fr_50fr] pt-24 min-h-screen">
         <div className="">
           <div className="bg-pink">
-            <img className="cover w-[40rem] h-[27rem] center object-cover" src="src/assets/images/modern-luxury-living-room-interior.jpg" alt="bath-room" />
+            <img className="cover w-[40rem] h-[27rem] center object-cover" src={modernLivingRoomImg} alt="bath-room" />
           </div>
         </div>
         <div className="scale-[85%]">

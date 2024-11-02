@@ -2,7 +2,10 @@ import { useState } from "react";
 import { CoverImages } from "../constants";
 import ViewMoreButton from "../components/Button";
 import prev from '../assets/icons/prev.svg';
-import next from '../assets/icons/next.svg';
+import next from '../assets/icons/next.svg'
+
+
+
 
 function Home() {
   const [Imgindex, setImgIndex] = useState(0); // Tracks change in image
