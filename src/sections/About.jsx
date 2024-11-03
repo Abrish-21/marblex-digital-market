@@ -11,12 +11,12 @@ import modernLivingRoomImg from "../assets/images/modern-luxury-living-room-inte
 function About() {
   return (
     <div className="relative w-full ">
-      <div className="w-full bg-white md:grid flex md:gap-0 gap-6 flex-col flex-wrap md:grid-cols-[34fr_30fr_30fr]">
-        <div className="md:scale-[85%] scale-[100%] md:px-0 px-4">
+      <div className="w-full bg-white md:grid flex md:gap-0 gap-6 flex-col flex-wrap lg:grid-cols-[34fr_30fr_30fr]">
+        <div className="lg:scale-[85%] scale-[100%] md:px-0 px-4">
           <div className="flex w-full flex-wrap overflow-hidden flex-col justify-start">
             <p className="line-before mb-4 font-BebasNeueStatic font-semibold text-[rgba(247,168,103,0.92)]">ABOUT US</p>
             <h1 className="md:text-6xl text-4xl md:ml-0 ml-5 font-BebasNeueStatic text-black">We Have A Lot Of Fun <br className="md:hidden" /> Process We Grow</h1>
-            <div className="mt-6 mb-6 ml-14 md:ml-0">
+            <div className="mt-6 mb-6 md:ml-0">
               <BulletSentence text="Come to Our marblex Office for a Visit" />
               <BulletSentence text="Take Your time to make your choice" />
               <BulletSentence text="Let's Find the Best Natural Stone" />

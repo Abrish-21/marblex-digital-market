@@ -8,8 +8,8 @@ import ScrollToTop from './components/ScrollToTop';
 const App = () => {
   useScrollAnimation();
   return (
-    <main className='bg-cover w-[26rem] lg:w-full bg-slate-700  bg-blend-soft-light'
-    style={{ backgroundImage: `url(${bg})` }}
+    <main className='bg-cover w-full bg-slate-700 bg-blend-soft-light'
+      style={{ backgroundImage: `url(${bg})` }}
     >
       <section><Address /></section>
       <section><Navbar /></section>
@@ -18,7 +18,7 @@ const App = () => {
         <Home />
       </section>
       <section id='about-us' className="lg:opacity-0 animate-on-scroll slide-in-right">
-        <About  />
+        <About />
       </section>
       <section className="lg:opacity-0 animate-on-scroll slide-in-left">
         <ShowRoom />
@@ -26,7 +26,7 @@ const App = () => {
       <section className="lg:opacity-0 animate-on-scroll slide-in-right">
         <OurSkill />
       </section>
-      <section className='bg-white overflow-hidden lg:selection:opacity-0 animate-on-scroll slide-in-left'>
+      <section className='bg-white overflow-hidden lg:opacity-0 animate-on-scroll slide-in-left'>
         <Services />
       </section>
       <section className='bg-white overflow-hidden relative lg:opacity-0 animate-on-scroll slide-in-right'>
@@ -42,7 +42,7 @@ const App = () => {
         <Footer />
       </section>
       <section className='bg-none'>
-        <ScrollToTop/>
+        <ScrollToTop />
       </section>
     </main>
   );

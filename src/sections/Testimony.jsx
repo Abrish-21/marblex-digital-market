@@ -11,7 +11,7 @@ import planIcon from "../assets/icons/Testimony-Icon/plan.svg";
 
 const Testimony = () => {
   return (
-    <div className="bg-none pt-10">
+    <div className="bg-none pt-10 w-full">
       <div className="grid lg:grid-cols-[50fr_50fr] lg:rows-1 grid-rows-[50fr_50fr] lg:px-20 lg:pt-20 bg-none lg:h-[35rem] overflow-visible">
         <div className="lg:p-6 ml-6">
           <p className="text-sm lg:text-lg line-before mb-4 font-BebasNeueStatic font-semibold text-[#fb923c]">TESTIMONIAL</p>
