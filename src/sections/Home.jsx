@@ -47,7 +47,7 @@ function Home() {
     <div className="w-full h-screen">
       <img src={homescreen} alt="homepage-image" className="w-full h-screen flex-wrap object-cover" />
 
-      <div className="lg:grid lg:grid-cols-[70fr_30fr] flex flex-col top-0 left-0  absolute w-full h-screen bg-slate-950 bg-opacity-80 lg:pl-10">
+      <div className="lg:grid lg:grid-cols-[70fr_30fr] flex flex-col top-0 left-0 gap-10  absolute w-full h-screen bg-slate-950 bg-opacity-80 lg:pl-10">
         <div className="lg:mt-[14rem] mt-[11rem] p-8 lg:p-0 flex flex-col gap-10 lg:items-start  ">
           <p className="line-before text-sm lg:text-lg">WELCOME TO DIGITAL MARBLEX</p>
 

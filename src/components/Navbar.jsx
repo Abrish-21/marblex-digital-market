@@ -28,7 +28,7 @@ function Navbar() {
           <NavbarElement />
         </div>
         <div className="flex gap-6">
-          <img src={search} alt="search" className="w-6 h-6 lg:w-10 lg:h-10" />
+        <img src= {search} alt="" className="lg:size-10 size-12"/>
           <Sidebar />
         </div>
       </nav>
