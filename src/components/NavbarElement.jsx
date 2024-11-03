@@ -88,7 +88,7 @@ const NavbarElement = ()=> {
               )}
             </li>
             <div className="relative">
-              <NavItem item = 'CONTACTS'/>
+              <p className='text-gray-950 font-semibold lg:text-black lg:font-normal'>CLIENTS</p>
             </div>
           </ul>
           <div className="items-center lg:hidden font-playwrite mt-14 lg:text-3xl text-2xl text-gray-950">

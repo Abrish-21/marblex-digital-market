@@ -34,7 +34,7 @@ function About() {
           </div>
         </div>
         <div className="md:scale-[85%] md:p-0 p-3"> 
-          <div className="w-full flex flex-col ml-4">
+          <div className="w-full flex flex-col lg:ml-0 ml-4">
             <p className="md:text-6xl text-2xl text-black font-BebasNeueStatic mb-9">Provide Solutions Of Every Kind</p>
             <p className="mb-14 text-black text-sm">Providing solutions to its customers,  Marblex can <br className="md:hidden" /> take a consultative approach, working closely with <br className="md:hidden" /> clients to understand their needs and preferences.</p>
             <ProgressBar value ={90}/>

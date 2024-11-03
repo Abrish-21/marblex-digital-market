@@ -14,11 +14,11 @@ const Client = () => {
       <div className="lg:mt-20 mt-10 flex flex-col lg:flex-row gap-4 lg:ml-[14.5rem] ml-8 lg:gap-80">
         <div className="lg:mr-[2rem]">
           <p className="line-before text-sm lg:text-lg mb-4 font-BebasNeueStatic text-[rgba(247,168,103,0.92)]">OUR CLIENT</p>
-          <h1 className="lg:text-4xl text-2xl font-roboto">Discover Our Creations</h1>
+          <h1 className="lg:text-4xl text-2xl font-roboto">Discover Our Clients</h1>
         </div>
         <ViewMoreButton text="View More"/>
       </div>
-      <div className="grid lg:grid-cols-[repeat(4,14rem)] lg:grid-rows-[14rem_14rem] gap-5 grid-cols-[10rem_10rem] grid-rows-[repeat(4,10rem)] lg:align-middle
+      <div className="grid lg:grid-cols-[repeat(4,14rem)]  lg:grid-rows-[14rem_14rem] gap-5 grid-cols-[10rem_10rem] grid-rows-[repeat(4,10rem)] lg:align-middle
       font-BebasNeueStatic text-[rgba(247,168,103,0.92)] lg:justify-center p-7">
         <div className="border border-gray-300 hover:text-red-500 text-white flex lg:items-center lg:justify-center">
           <p className="text-[#fb923c] lg:text-6xl text-4xl pl-6  partner-logo hover:animate-bounce">Trusted By Many</p>

@@ -12,7 +12,7 @@ function ShowRoom() {
          <Button  text = "View More"/>
 
     </div>
-    <div className="grid lg:ml-0 ml-5 lg:grid-cols-[22rem_22rem_22rem] grid-rows-[10rem_10rem] grid-cols-[8rem_8rem] gap-x-14 lg:gap-y-15 lg:gap-x-1 lg:grid-rows-[15rem_15rem] lg:justify-center lg:gap-8">
+    <div className="grid lg:ml-0 ml-6 pb-10 lg:grid-cols-[22rem_22rem_22rem] grid-rows-[10rem_10rem] grid-cols-[8rem_8rem] gap-x-14 lg:gap-y-15 lg:gap-x-1 lg:grid-rows-[15rem_15rem] lg:justify-center lg:gap-8">
       {marbelImages.map((item)=>(
         <div className=" flex flex-col lg:justify-start items-start">
           <MarbelCard Img={item.img} name = {item.name}/>

@@ -29,7 +29,7 @@ function Navbar() {
         <div className="hidden lg:block">
           <NavbarElement/>
         </div>
-        <div className="flex">
+        <div className="flex gap-6">
           <img src= {search} alt="" className="lg:size-10 size-12"/>
       
           <Sidebar />
