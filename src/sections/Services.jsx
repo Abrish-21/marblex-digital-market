@@ -6,7 +6,7 @@ import img4 from "../assets/images/minh-pham-Y6HuHkhrKYU-unsplash.jpg";
 
 function Services() {
   return (  
-    <div className='flex p-4 justify-center bg-white'>
+    <div className='lg:flex lg:p-4 lg:justify-center grid grid-cols-[10rem_10rem] gap-6 lg:ml-0 ml-6 bg-white'>
       <ServiceCard img={img1} />
       <ServiceCard img={img2} />
       <ServiceCard img={img3} />

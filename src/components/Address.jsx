@@ -25,7 +25,7 @@ function Address() {
         <img src= {phone} alt="phone-logo" />
         <a href="tel:+1800001658" className='hidden lg:block text-white lg:mr-10 hover:text-[rgba(247,168,103,0.92)] '>+1800001658</a>
         <img src= {message} alt="message-logo" />
-        <a href="mailto:someone@example.com" className='hidden lg:block ext-white hover:text-[rgba(247,168,103,0.92)] '>info@Peacefulthemes.com</a>
+        <a href="mailto:someone@example.com" className='hidden lg:block text-white hover:text-[rgba(247,168,103,0.92)] '>info@Peacefulthemes.com</a>
 
     </div>
 

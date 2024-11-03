@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div className="bg-none font-roboto flex flex-col justify-center items-center">
       <div className="flex justify-start gap-80 items-center p-10 pl-32">
-        <a href="#home" className="flex items-center gap-1 text-white">
+        <a href="#home" className="hover:text-white  flex items-center gap-1 text-white">
           <img id="logo-icon" src={logoIcon} alt="logo" />
           <p className="font-serif text-4xl">Marblex</p>
         </a>

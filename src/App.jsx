@@ -2,9 +2,8 @@ import { About, ShowRoom, Client, FAQ, Footer, Home, OurSkill, Services, Testimo
 import Navbar from './components/Navbar';
 import Address from './components/Address';
 import useScrollAnimation from './hooks/useScrollAnimation';
-
-
 import bg from './assets/images/pexels-skylar-kang-6044820.jpg';
+import ScrollToTop from './components/ScrollToTop';
 
 const App = () => {
   useScrollAnimation();
@@ -41,6 +40,9 @@ const App = () => {
       </section>
       <section className='bg-none lg:opacity-0 animate-on-scroll slide-in-left'>
         <Footer />
+      </section>
+      <section className='bg-none'>
+        <ScrollToTop/>
       </section>
     </main>
   );

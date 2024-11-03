@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import SidebarDemo from './SidebarDemo';
+import Sidebar from './Sidebar';
 import logo from '../assets/icons/logo.svg';
 import search from '../assets/icons/search.svg';
 import NavbarElement from './NavbarElement';
@@ -32,11 +32,11 @@ function Navbar() {
         <div className="flex">
           <img src= {search} alt="" className="lg:size-10 size-12"/>
       
-          <SidebarDemo />
+          <Sidebar />
         </div>
       </nav>
     </header>
   );
 }
 
-export default Navbar;
+export default Navbar

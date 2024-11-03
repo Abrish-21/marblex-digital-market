@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { CoverImages } from "../constants";
-import ViewMoreButton from "../components/Button";
+import Button from "../components/Button";
 import prev from '../assets/icons/prev.svg';
 import next from '../assets/icons/next.svg'
 
@@ -44,32 +44,33 @@ function Home() {
   };
 
   return (
-    <div className="w-full h-screen overflow-hidden relative text-sm lg:text-lg">
-      <img src={homescreen} alt="homepage-image" className="w-full h-full object-cover" />
+    <div className="w-full h-screen">
+      <img src={homescreen} alt="homepage-image" className="w-full h-screen flex-wrap object-cover" />
 
-      <div className="lg:grid grid-cols-[70fr_30fr] lg:top-0 lg:left-0 absolute w-full h-screen bg-slate-950 bg-opacity-80 lg:pl-10">
-        <div className="lg:mt-[17rem]">
-          <p className="line-before">WELCOME TO DIGITAL MARBLEX</p>
-          <br />
-          <br />
-          <div className="text-container lg:pb-8">
-            <h1 className={`lg:text-7xl ${textClass}`}>{currentText}</h1>
+      <div className="lg:grid lg:grid-cols-[70fr_30fr] flex flex-col top-0 left-0  absolute w-full h-screen bg-slate-950 bg-opacity-80 lg:pl-10">
+        <div className="lg:mt-[14rem] mt-[11rem] p-8 lg:p-0 flex flex-col gap-10 lg:items-start  ">
+          <p className="line-before text-sm lg:text-lg">WELCOME TO DIGITAL MARBLEX</p>
+
+
+          <div className=" lg:mt-10 lg:text-container lg:pb-8">
+            <p className={`lg:text-7xl text-4xl ${textClass}`}>{currentText}</p>
           </div>
-          <ViewMoreButton text="Read More" />
+       
+          <Button text="Read More" />
         </div>
-        <div className="bg-none h-full w-[30rem] relative pl-32 pt-16">
-          <div className="absolute bottom-52 right-20 flex gap-4 p-30 rounded-lg">
+        <div className="bg-none lg:h-full lg:w-[30rem] lg:relative lg:pl-32 lg:pt-16">
+          <div className="lg:absolute relative lg:bottom-52 lg:right-20 justify-center flex gap-4 lg:p-30 rounded-lg">
             {CoverImages.map((image, index) => (
               <img
                 key={index}
                 src={image.src}
                 alt=""
-                className="partner-logo w-[8rem] h-[6rem] object-cover rounded-lg"
+                className="partner-logo lg:w-[8rem] lg:h-[6rem] size-24 object-cover rounded-lg"
                 onClick={() => changeHomeScreen(image.src, image.text)}
               />
             ))}
           </div>
-          <div className="absolute bottom-32 left-36 flex gap-6">
+          <div className="lg:absolute lg:bottom-32 lg:left-36 flex mt-7 lg:mt-0 justify-center lg:gap-6">
             <button onClick={ShowprevImg}>
               <img id="icons-navbar" src= {prev} alt="" />
             </button>

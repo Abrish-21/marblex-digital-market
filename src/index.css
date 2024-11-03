@@ -9,6 +9,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.custom-bar .p-progressbar-value {
+  @apply bg-[#fb923c]; /* Or any Tailwind color utility */
+}
+
 
 
 

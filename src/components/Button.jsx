@@ -1,10 +1,10 @@
 import arrow from '../assets/icons/arrow.svg';
 const ViewMoreButton = ({text})=>{
     return(
-        <button className=" rounded-lg font-roboto  bg-[#fb923c] hover:bg-zinc-950 hover:text-white px-6 py-2 mt-10 ">
-        <div className="flex">
+        <button className="w-40 lg:ml-0 ml-20 lg:w-52 animate-pulse text-sm lg:text-lg text-black font-semibold rounded-sm font-roboto  bg-[#fb923c] hover:bg-zinc-950 hover:text-white px-6 py-2 lg:mt-10 ">
+        <div className="flex  justify-center">
           <p>{text}</p>
-          <img src= {arrow} alt="skype-logo" className='w-7' />
+          <img src= {arrow} alt="arrow-logo" className='lg:w-7 w-4' />
         </div>
         </button>
         

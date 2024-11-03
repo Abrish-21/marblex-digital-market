@@ -27,7 +27,7 @@ export default function PositionDemo() {
                 <Button icon="pi pi-arrow-down" onClick={() => setVisibleTop(true)} /> */}
 
             </div>
-            <Sidebar className='w-40 lg:w-[30%]' visible={visibleRight} position="right" onHide={() => setVisibleRight(false)}>
+            <Sidebar className='w-40 lg:w-[30%] flex flex-col' visible={visibleRight} position="right" onHide={() => setVisibleRight(false)}>
             <div className="hidden lg:block">
                 <div className="flex scale-[80%]">
                     <img id="logo-icon" src= {logo} alt="logo" />
@@ -37,6 +37,7 @@ export default function PositionDemo() {
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
+                <p className='text-2xl font-semibold font-serif ml-4 pt-8'>Our Gallary Collections</p>
                     <div className="grid grid-cols-[30fr_30fr_30fr] grid-rows-[4rem_4rem] mt-6 border-2 gap-5 border-orange-400 p-6">
                         <SideGallary img={stone1} />
                         <SideGallary img={stone2}/>
@@ -46,9 +47,9 @@ export default function PositionDemo() {
                         <SideGallary img= {stone1} />
                 
                     </div>
-                    <div className="justify-center ml-10 mt-4 font-playwrite text-3xl text-gray-950">
+                    <div className="justify-center items-center flex flex-col mt-3 font-playwrite text-3xl text-gray-950">
                         <p>Thank You</p>
-                        <img src= {smileIcon} alt="" className='mt-4 animate-bounce  size-20 ml-14'/>
+                        <img src= {smileIcon} alt="" className='mt-5 animate-bounce  size-20'/>
                     </div>
             </div>
 
