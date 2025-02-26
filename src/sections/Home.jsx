@@ -2,10 +2,7 @@ import { useState } from "react";
 import { CoverImages } from "../constants";
 import Button from "../components/Button";
 import prev from '../assets/icons/prev.svg';
-import next from '../assets/icons/next.svg'
-
-
-
+import next from '../assets/icons/next.svg';
 
 function Home() {
   const [Imgindex, setImgIndex] = useState(0); // Tracks change in image
@@ -47,15 +44,12 @@ function Home() {
     <div className="w-full h-screen">
       <img src={homescreen} alt="homepage-image" className="w-full h-screen flex-wrap object-cover" />
 
-      <div className="lg:grid lg:grid-cols-[70fr_30fr] flex flex-col top-0 left-0 gap-10  absolute w-full h-screen bg-slate-950 bg-opacity-80 lg:pl-10">
-        <div className="lg:mt-[14rem] mt-[11rem] p-8 lg:p-0 flex flex-col gap-10 lg:items-start  ">
+      <div className="lg:grid lg:grid-cols-[70fr_30fr] flex flex-col top-0 left-0 gap-10 absolute w-full h-screen bg-slate-950 bg-opacity-80 lg:pl-10">
+        <div className="lg:mt-[14rem] mt-[11rem] p-8 lg:p-0 flex flex-col gap-10 lg:items-start">
           <p className="line-before text-sm lg:text-lg">WELCOME TO DIGITAL MARBLEX</p>
-
-
-          <div className=" lg:mt-10 lg:text-container lg:pb-8">
+          <div className="lg:mt-10 lg:text-container lg:pb-8">
             <p className={`lg:text-7xl text-4xl ${textClass}`}>{currentText}</p>
           </div>
-       
           <Button text="Read More" />
         </div>
         <div className="bg-none lg:h-full lg:w-[30rem] lg:relative lg:pl-32 lg:pt-16">
@@ -72,16 +66,11 @@ function Home() {
           </div>
           <div className="lg:absolute lg:bottom-32 lg:left-36 flex mt-7 lg:mt-0 justify-center lg:gap-6">
             <button onClick={ShowprevImg}>
-              <img id="icons-navbar" src= {prev} alt="" />
+              <img id="icons-navbar" src={prev} alt="" />
             </button>
             <button onClick={ShownxtImg}>
-              <img id="icons-navbar" src= {next} alt="" />
+              <img id="icons-navbar" src={next} alt="" />
             </button>
-
-
-
-
-
           </div>
         </div>
       </div>

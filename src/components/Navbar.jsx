@@ -18,8 +18,8 @@ function Navbar() {
   }, []);
 
   return (
-    <header className={`navbar text-sm lg:text-lg w-full ${isFixed ? 'slide-down' : 'absolute'}`}>
-      <nav id="navbar" className="flex items-center lg:gap-24 gap-16 justify-between p-3">
+    <header className={`navbar text-sm lg:text-lg lg:w-full ${isFixed ? 'slide-down' : 'absolute'}`}>
+      <nav id="navbar" className="flex items-center lg:gap-24  justify-between p-3">
         <a href="#home" className="flex items-center md:gap-1 text-slate-950">
           <img id="logo-icon" src={logo} alt="logo" className="w-8 h-8 md:w-10 md:h-10" />
           <h1 className="font-serif text-2xl md:text-5xl text-gray-950">Marblex</h1>
