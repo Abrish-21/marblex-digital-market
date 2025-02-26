@@ -2,10 +2,6 @@ import BulletSentence from "../components/BulletSentence";
 import ProfileCard from "../components/ProfileCard";
 import ProgressBar from "../components/ProgressBar";
 import ViewMoreButton from "../components/Button";
-import profileImg from "../assets/images/profile2.jpg";
-import signImg from "../assets/images/sign1.png";
-import livingRoomImg from "../assets/images/minh-pham-Y6HuHkhrKYU-unsplash.jpg";
-import modernLivingRoomImg from "../assets/images/modern-luxury-living-room-interior.jpg";
 function About() {
   return (
     <div className="relative w-full">
@@ -21,14 +17,14 @@ function About() {
               <BulletSentence text="Delivery & Installation" />
             </div>
             <div className="flex lg:ml-0">
-              <ProfileCard Img={profileImg} name="Alex Jhon Martin" role="MANAGER"/>
-              <img className="lg:size-28 size-16" src={signImg} alt="signature" />
+              <ProfileCard Img= "https://i.postimg.cc/VNRQ1W7W/profile2.jpg" name="Alex Jhon Martin" role="MANAGER"/>
+              <img className="lg:size-28 size-16" src= "https://i.postimg.cc/j2DGH0RM/sign1.png" alt="signature" />
             </div>
           </div>
         </div>
         <div className="lg:scale-[85%] lg:ml-0 ml-3">
           <div>
-            <img className="lg:h-[30rem] lg:w-[25rem] h-[20rem] w-[18rem] lg:ml-0 ml-10 rounded-lg " src={livingRoomImg} alt="living-room" />
+            <img className="lg:h-[30rem] lg:w-[25rem] h-[20rem] w-[18rem] lg:ml-0 ml-10 rounded-lg " src= "https://i.postimg.cc/MTT4w2fz/minh-pham-Y6-Hu-Hkhr-KYU-unsplash.jpg" alt="living-room" />
           </div>
         </div>
         <div className="lg:scale-[85%] lg:p-0 p-3"> 
@@ -44,7 +40,7 @@ function About() {
       <div className="grid md:grid-cols-[50fr_50fr] md:grid-rows-1 grid-rows-[50fr_50fr] md:pt-24 w-full flex-wrap">
         <div className="">
           <div className=" pt-10">
-            <img className=" md:w-[40rem] md:h-[27rem] h-[25rem] w-[22rem] md:ml-0 ml-5 rounded-lg center object-cover" src={modernLivingRoomImg} alt="bath-room" />
+            <img className=" md:w-[40rem] md:h-[27rem] h-[25rem] w-[22rem] md:ml-0 ml-5 rounded-lg center object-cover" src = "https://i.postimg.cc/nLRxB1vc/modern-luxury-living-room-interior.jpg" alt="bath-room" />
           </div>
         </div>
         <div className="lg:scale-[85%] pt-5">
